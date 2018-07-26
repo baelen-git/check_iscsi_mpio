@@ -9,7 +9,7 @@ Information on running PowerShell scripts can be found here:
     -https://technet.microsoft.com/en-us/library/bb613481.aspx
     -http://www.netapp.com/us/media/tr-4475.pdf
 
-File Name:  is_iscsi_mulitpath.ps1
+File Name:  check_iscsi_mpio.ps1
 Author: Boris Aelen 
 Version: 2.0 (Also reflected in -ShowVersion parameter)
 
@@ -27,18 +27,18 @@ BlaBla BlaBla
 
 .EXAMPLE
 
-.\is_iscsi_mulitpath.ps1
+.\check_iscsi_mpio.ps1
 
 Running without any parameters will prompt for all necessary values.
 
 .EXAMPLE
     
-.\is_iscsi_mulitpath.ps1 -Cluster MyClusterManagementIP -Username admin -Password MyPassword 
+.\check_iscsi_mpio.ps1 -Cluster MyClusterManagementIP -Username admin -Password MyPassword 
 
 These parameters allow the passing of cluster connection information to avoid being prompted while executing the script.
 
 .EXAMPLE
-.\83UpgradeCheck.ps1 -ShowVersion
+.\check_iscsi_mpio.ps1 -ShowVersion
 
 Displays current version of the script and download link
 
